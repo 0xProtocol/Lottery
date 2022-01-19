@@ -1,0 +1,37 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"lottery.sol": "Lottery"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"lottery.sol": {
+			"keccak256": "0x9436df0b241f23ade80bbd4ae6d1b6afef7431b4c9247fca814f6e13296338d4",
+			"urls": [
+				"bzz-raw://29fd5e49b39555888bf5eeb16b783c8aa8fb75bae105c571f344a467c86e4e82",
+				"dweb:/ipfs/QmWRQmgh9MsucidUSFh9mss2EdJ9bw7xoCJm4i7PBYBw9s"
+			]
+		}
+	},
+	"version": 1
+}
