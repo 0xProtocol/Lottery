@@ -1,23 +1,92 @@
 {
 	"compiler": {
-		"version": "0.5.17+commit.d19bba13"
+		"version": "0.8.6+commit.11564f7e"
 	},
 	"language": "Solidity",
 	"output": {
-		"abi": [],
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [],
+				"name": "getBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "manager",
+				"outputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "pickWinner",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "players",
+				"outputs": [
+					{
+						"internalType": "address payable",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"stateMutability": "payable",
+				"type": "receive"
+			}
+		],
 		"devdoc": {
-			"methods": {}
+			"kind": "dev",
+			"methods": {},
+			"version": 1
 		},
 		"userdoc": {
-			"methods": {}
+			"kind": "user",
+			"methods": {},
+			"version": 1
 		}
 	},
 	"settings": {
 		"compilationTarget": {
 			"lottery.sol": "Lottery"
 		},
-		"evmVersion": "istanbul",
+		"evmVersion": "berlin",
 		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
 		"optimizer": {
 			"enabled": false,
 			"runs": 200
@@ -26,10 +95,11 @@
 	},
 	"sources": {
 		"lottery.sol": {
-			"keccak256": "0x9436df0b241f23ade80bbd4ae6d1b6afef7431b4c9247fca814f6e13296338d4",
+			"keccak256": "0xe56ae8329c24226e10a2594d66453ba8149b937761c98fe431c13b95d4b71606",
+			"license": "GPL-3.0",
 			"urls": [
-				"bzz-raw://29fd5e49b39555888bf5eeb16b783c8aa8fb75bae105c571f344a467c86e4e82",
-				"dweb:/ipfs/QmWRQmgh9MsucidUSFh9mss2EdJ9bw7xoCJm4i7PBYBw9s"
+				"bzz-raw://51a3609546df3542a7c993c2143e5e97e6330d9b449f3332b5ed07980ec517e1",
+				"dweb:/ipfs/QmXj8q9iJydu1t5nEi8XvGwE3jaZmkZ4s6pscEnogWH6hM"
 			]
 		}
 	},
